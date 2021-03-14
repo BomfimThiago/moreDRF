@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "venv/bin/python3",
+    "python.pythonPath": "/home/Thiago/.virtualenvs/DRF/bin/python",
     "editor.tabSize": 4,
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true
