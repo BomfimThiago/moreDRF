@@ -27,7 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'apps.users'
+    'apps.utils',
+    'apps.users',
+    'apps.certificates',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +80,8 @@ DATABASES = {
         'NAME': 'drf_db',
         'USER': 'drf_user',
         'PASSWORD': 'drf_password',
-        'HOST': '192.168.15.4',
+        # 'HOST': '192.168.15.4',
+        'HOST': '192.168.12.254',
         'PORT': 5432,
     }
 }
